@@ -1,0 +1,35 @@
+<app-navbar></app-navbar>
+
+<div class="card container">
+    <div class="card-header">
+        <h5 class="mb-0">Create news</h5>
+    </div>
+    <div class="card-body">
+        <div>
+            <form [formGroup]="newsForm" (ngSubmit)="addNews()">
+                <div style="display: flex;margin-bottom: 20px;">
+                    <label class="form-label" style="margin-right: 20px;">Title</label>
+                    <input class="form-control" formControlName="title" type="text" style="flex-grow: 1;" />
+                </div>
+                <div style="display: flex;margin-bottom: 20px;">
+                    <label class="form-label" style="margin-right: 20px;">Author(s)</label>
+                    <input class="form-control" formControlName="author" type="text" style="flex-grow: 1;" />
+                </div>
+                <div style="display: flex;margin-bottom: 20px;">
+                    <label class="form-label" style="margin-right: 20px;">Description</label>
+                    <input class="form-control" formControlName="description" type="text" style="flex-grow: 1;" />
+                </div>
+                <div style="display: flex;margin-bottom: 20px;">
+                    <label class="form-label" style="margin-right: 20px;">Content</label>
+                    <textarea class="form-control" formControlName="content"></textarea>
+                </div>
+                <div style="display: flex;justify-content: space-evenly;">
+                    <button class="btn btn-primary" routerLink="/news" type="button">Cancel</button>
+                    <button type="submit" [disabled]="newsForm.invalid" class="btn btn-primary">Save</button>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+</div> 
+  

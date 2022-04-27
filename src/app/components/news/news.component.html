@@ -1,0 +1,24 @@
+<app-navbar></app-navbar>
+<div class= "header container">
+    <h1>News list </h1>
+    <!--<button type="button" class="btn btn-primary" routerLink="/create-news">Create news</button> -->
+</div>
+<section *ngIf= "listNews.length > 0" class= "news-section container">
+    <div class="card"  *ngFor="let news of listNews">
+        <div class="card-body">
+            <div class="date-icon-row">
+                <span>{{news.date}}</span>
+                <i (click)= "archiveNews(news._id)" class="bi bi-archive-fill text-primary" title="Archive news"></i>
+            </div>
+            <h4 class="card-title">{{news.title}}</h4>
+            <span>{{news.author}}</span>
+            <h6 class="text-muted card-subtitle mb-2">{{news.description}}</h6>
+            <p class="card-text">{{news.content}}</p>
+            <button class="btn btn-primary" (click)= "archiveNews(news._id)" type="button" title="Archive news"><i class="bi bi-archive-fill"></i>Archive</button>
+        </div>
+    </div>
+   
+</section>
+<div class="container">
+    <h5 style="text-align: center; margin-top: 10px;" *ngIf="listNews.length == 0">There are no news to show</h5>
+</div>

@@ -1,0 +1,36 @@
+.header {
+    margin-top: 20px;
+    background-color: var(--bs-gray-400);
+    display: flex;
+    justify-content: center;
+}
+
+h1  {
+    font-size: x-large;
+}
+
+.news-section   {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.date-icon-row  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card   {
+    margin-bottom: 20px;
+}
+
+.bi {
+    cursor: pointer;
+}
+
+.card-title, .card-subtitle {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
