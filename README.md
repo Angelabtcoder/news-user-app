@@ -82,9 +82,7 @@ Para verificar el acceso a la base de datos y los end points del servidor utiliz
 ![AtlasMongo](https://user-images.githubusercontent.com/77165242/165515850-767ca91a-04fa-4fd3-b4fe-1911af024b69.jpg)
 
 
-## Autores ✒️
-
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
+## Autora ✒️
 
 * **Angela Blanco Terry** - [Angelabtcoder](https://github.com/Angelabtcoder)
 
