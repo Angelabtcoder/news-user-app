@@ -69,12 +69,13 @@ y el fichero de rutas app-routing.modules.ts.
 
 ![Image 003](https://user-images.githubusercontent.com/77165242/165515994-3c7d0fa2-556d-49dd-92eb-cd70b4a6ffda.jpg)
 
-![Insomnia](https://user-images.githubusercontent.com/77165242/165515654-d51325ca-27fe-4f17-8f65-9c13e0ef0968.jpg)
 
 
 ## Herramientas adicionales 🛠️
 
 Para verificar el acceso a la base de datos y los end points del servidor utilizamos la herramienta Insomnia y Mongo Compass:
+
+![Insomnia](https://user-images.githubusercontent.com/77165242/165515654-d51325ca-27fe-4f17-8f65-9c13e0ef0968.jpg)
 
 ![compass](https://user-images.githubusercontent.com/77165242/165515790-a4d3a7be-afa1-48f0-9a54-33b782051009.jpg)
 
