@@ -2,7 +2,7 @@
 
 ## Comenzando 🚀
 
-Este proyecto es parte de una prueba técnica. Consiste en la realización de una aplicación de noticias construida con Angular en el Frontend y NodeJS/Express del lado del servidor (Backend). 
+Este proyecto consiste en la realización de una aplicación de noticias construida con Angular en el Frontend y NodeJS/Express del lado del servidor (Backend). 
 
 
 Contiene 3 vistas. Una muestra listado de noticias organizadas en una columna y por fecha de publicación. Cada noticia contendrá un botón para archivarla. Otra muestra un listado con las noticias archivadas igualmente organizadas y con un botón para borrado. La tercera vista consta de un formulario para la introdución de la noticia y su posterior almacenamiento en la base de datos.
